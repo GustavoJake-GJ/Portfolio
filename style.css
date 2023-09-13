@@ -38,7 +38,7 @@ body {
   border-radius: 50px;
   border: 1px;
   box-shadow:4px 2px 25px #1c1c1c;
-  cursor: pointer
+  cursor: pointer;
  transition: all 0.2s;
 }
 button:hover {
