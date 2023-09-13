@@ -23,6 +23,7 @@ body {
   left: 41%;
   box-shadow: 1px 3px 16px #0e1d2f;
   position: relative;
+  animation: fantasminha 3s infinite
 }
 
 .tema button {
@@ -105,6 +106,7 @@ body {
   color: #c7f9cc;
   text-align: center;
   box-shadow: 5px 4px 6px #0e1d2f;
+  animation: mexidinha 4s infinite
 }
 
 /*    dark mode    */
@@ -130,3 +132,24 @@ body {
 .dark .logoGJ{
   color:#121613
 }
+@keyframes fantasminha{
+  0% {transform: translateY(-11px)
+  }
+  50%{
+    transform: translateY(10px)
+  }
+  100%{
+    transform: translateY(-11px)
+  }
+  }
+
+@keyframes mexidinha{
+  0% {transform: translateX(-3px)
+  }
+  50%{
+    transform: translateX(3px)
+  }
+  100%{
+    transform: translateX(-3px)
+  }
+  }
