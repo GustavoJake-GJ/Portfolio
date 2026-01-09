@@ -124,6 +124,17 @@ button:hover {
   box-shadow: 11px 11px 16px #c7f9cc;
   /*   050505 */
 }
+.dark .backimg {
+  background:  linear-gradient(236.85deg, #c7f9cc 27.26%, #38a3a5 96.03%);
+  border-radius: 15px;
+  display: block;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  box-shadow: 1px 1px 10px #0e1d2f;
+  padding: 50px 60px;
+}
 .dark .projetos {
   color: #1c1c1c;
 }
