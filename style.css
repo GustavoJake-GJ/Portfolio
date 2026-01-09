@@ -46,7 +46,7 @@ button:hover {
   opacity: 0.9;
 }
 .backimg {
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFIc3Mn9cv0KrC_yjEmRgVmu7oAwuC06zRw&usqp=CAU);
+  background:  linear-gradient(236.85deg, #0e1d1f 27.26%, #38a3a5 96.03%);
   border-radius: 15px;
   display: block;
   max-width: 620px;
